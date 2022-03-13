@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30510" started-at="2022-03-13T22:28:59Z" finished-at="2022-03-13T22:29:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30510" started-at="2022-03-13T22:28:59Z" finished-at="2022-03-13T22:29:29Z">
+      <class name="com.aircanada.testCases.SearchFlightTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="setUp" is-config="true" duration-ms="6933" started-at="2022-03-13T15:28:59Z" finished-at="2022-03-13T15:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="book_flight_roundTrip()[pri:1, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="book_flight_roundTrip" duration-ms="11799" started-at="2022-03-13T15:29:06Z" finished-at="2022-03-13T15:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book_flight_roundTrip -->
+        <test-method status="PASS" signature="verify_Dept_date()[pri:2, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="verify_Dept_date" duration-ms="10517" started-at="2022-03-13T15:29:17Z" finished-at="2022-03-13T15:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Dept_date -->
+        <test-method status="PASS" signature="verify_displayed_tabs()[pri:3, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="verify_displayed_tabs" duration-ms="297" started-at="2022-03-13T15:29:28Z" finished-at="2022-03-13T15:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_displayed_tabs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="tearDown" is-config="true" duration-ms="937" started-at="2022-03-13T15:29:28Z" finished-at="2022-03-13T15:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.aircanada.testCases.SearchFlightTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

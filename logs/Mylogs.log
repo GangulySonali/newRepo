@@ -1,0 +1,60 @@
+[INFO ] 2022-03-13 14:22:26.072 [main] BaseClass - Browser opened--------------------
+[INFO ] 2022-03-13 14:22:27.830 [main] BaseClass - URL opened--------------------
+[INFO ] 2022-03-13 14:22:28.098 [main] BaseClass - Title verified and desired page opened---------------------
+[INFO ] 2022-03-13 14:22:31.907 [main] BaseClass - Country and Language set as desired---------------------
+[INFO ] 2022-03-13 14:22:34.799 [main] BaseClass - Flight tab selected---------------------------
+[INFO ] 2022-03-13 14:22:34.941 [main] BaseClass - Round Trip selected------------------------
+[INFO ] 2022-03-13 14:22:35.192 [main] BaseClass - Origin selected------------------
+[INFO ] 2022-03-13 14:22:35.360 [main] BaseClass - Destination selected-----------------
+[INFO ] 2022-03-13 14:22:40.358 [main] BaseClass - Departure and Return dates are selected-------------------
+[INFO ] 2022-03-13 14:22:49.829 [main] BaseClass - Page title verified for Select Flight page and navigation is correct -----
+[INFO ] 2022-03-13 14:22:49.892 [main] BaseClass - Departure date is verified---------------------
+[INFO ] 2022-03-13 14:22:49.892 [main] BaseClass - Departure date is verified---------------------
+[INFO ] 2022-03-13 14:22:50.180 [main] BaseClass - Expected Tabs are found-------
+[INFO ] 2022-03-13 14:22:50.180 [main] BaseClass - Tabs are verified-------------------------
+[INFO ] 2022-03-13 14:22:51.343 [main] BaseClass - Browsr closed-------------------------
+[INFO ] 2022-03-13 14:25:42.258 [main] BaseClass - Browser opened--------------------
+[INFO ] 2022-03-13 14:25:45.511 [main] BaseClass - URL opened--------------------
+[INFO ] 2022-03-13 14:25:45.525 [main] BaseClass - Title verified and desired page opened---------------------
+[INFO ] 2022-03-13 14:25:48.612 [main] BaseClass - Country and Language set as desired---------------------
+[INFO ] 2022-03-13 14:25:51.371 [main] BaseClass - Flight tab selected---------------------------
+[INFO ] 2022-03-13 14:25:51.511 [main] BaseClass - Round Trip selected------------------------
+[INFO ] 2022-03-13 14:25:51.736 [main] BaseClass - Origin selected------------------
+[INFO ] 2022-03-13 14:25:51.901 [main] BaseClass - Destination selected-----------------
+[INFO ] 2022-03-13 14:25:56.817 [main] BaseClass - Departure and Return dates are selected-------------------
+[INFO ] 2022-03-13 14:26:07.162 [main] BaseClass - Page title verified for Select Flight page and navigation is correct -----
+[INFO ] 2022-03-13 14:26:07.335 [main] BaseClass - Departure date is verified---------------------
+[INFO ] 2022-03-13 14:26:07.335 [main] BaseClass - Departure date is verified---------------------
+[INFO ] 2022-03-13 14:26:07.537 [main] BaseClass - Expected Tabs are found-------
+[INFO ] 2022-03-13 14:26:07.537 [main] BaseClass - Tabs are verified-------------------------
+[INFO ] 2022-03-13 14:26:08.514 [main] BaseClass - Browsr closed-------------------------
+[INFO ] 2022-03-13 14:29:03.153 [main] BaseClass - Browser opened--------------------
+[INFO ] 2022-03-13 14:29:06.154 [main] BaseClass - URL opened--------------------
+[INFO ] 2022-03-13 14:29:06.168 [main] BaseClass - Title verified and desired page opened---------------------
+[INFO ] 2022-03-13 14:29:09.192 [main] BaseClass - Country and Language set as desired---------------------
+[INFO ] 2022-03-13 14:29:12.264 [main] BaseClass - Flight tab selected---------------------------
+[INFO ] 2022-03-13 14:29:12.442 [main] BaseClass - Round Trip selected------------------------
+[INFO ] 2022-03-13 14:29:12.668 [main] BaseClass - Origin selected------------------
+[INFO ] 2022-03-13 14:29:12.854 [main] BaseClass - Destination selected-----------------
+[INFO ] 2022-03-13 14:29:17.750 [main] BaseClass - Departure and Return dates are selected-------------------
+[INFO ] 2022-03-13 14:29:28.503 [main] BaseClass - Page title verified for Select Flight page and navigation is correct -----
+[INFO ] 2022-03-13 14:29:28.559 [main] BaseClass - Departure date is verified---------------------
+[INFO ] 2022-03-13 14:29:28.559 [main] BaseClass - Departure date is verified---------------------
+[INFO ] 2022-03-13 14:29:28.801 [main] BaseClass - Expected Tabs are found-------
+[INFO ] 2022-03-13 14:29:28.801 [main] BaseClass - Tabs are verified-------------------------
+[INFO ] 2022-03-13 14:29:29.738 [main] BaseClass - Browsr closed-------------------------
+[INFO ] 2022-03-13 14:36:39.663 [main] BaseClass - Browser opened--------------------
+[INFO ] 2022-03-13 14:36:43.321 [main] BaseClass - URL opened--------------------
+[INFO ] 2022-03-13 14:36:43.394 [main] BaseClass - Title verified and desired page opened---------------------
+[INFO ] 2022-03-13 14:36:46.091 [main] BaseClass - Country and Language set as desired---------------------
+[INFO ] 2022-03-13 14:36:48.732 [main] BaseClass - Flight tab selected---------------------------
+[INFO ] 2022-03-13 14:36:48.895 [main] BaseClass - Round Trip selected------------------------
+[INFO ] 2022-03-13 14:36:49.088 [main] BaseClass - Origin selected------------------
+[INFO ] 2022-03-13 14:36:49.251 [main] BaseClass - Destination selected-----------------
+[INFO ] 2022-03-13 14:36:54.150 [main] BaseClass - Departure and Return dates are selected-------------------
+[INFO ] 2022-03-13 14:37:04.448 [main] BaseClass - Page title verified for Select Flight page and navigation is correct -----
+[INFO ] 2022-03-13 14:37:04.635 [main] BaseClass - Departure date is verified---------------------
+[INFO ] 2022-03-13 14:37:04.635 [main] BaseClass - Departure date is verified---------------------
+[INFO ] 2022-03-13 14:37:05.011 [main] BaseClass - Expected Tabs are found-------
+[INFO ] 2022-03-13 14:37:05.011 [main] BaseClass - Tabs are verified-------------------------
+[INFO ] 2022-03-13 14:37:05.823 [main] BaseClass - Browsr closed-------------------------

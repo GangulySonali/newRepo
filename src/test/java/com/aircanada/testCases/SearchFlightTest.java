@@ -52,7 +52,7 @@ public class SearchFlightTest extends BaseClass{
 	}
 
 		@Test(priority=2)
-		public void verify() throws IOException
+		public void verify_Dept_date() throws IOException
 		{
 		sfObject.verifying_SelectFlightPage();
 		
@@ -66,6 +66,10 @@ public class SearchFlightTest extends BaseClass{
 			Assert.assertTrue(false);
 			
 		}
+		}
+		@Test(priority=3)
+		public void verify_displayed_tabs() throws IOException
+		{
 		sfObject.verifying_departureDate(driver, 20,"July 15, 2022");
 		logger.info("Departure date is verified---------------------");
 
