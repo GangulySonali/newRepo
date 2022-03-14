@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36465" started-at="2022-03-14T01:37:30Z" finished-at="2022-03-14T01:38:06Z">
+  <suite name="Suite" duration-ms="34734" started-at="2022-03-14T01:46:47Z" finished-at="2022-03-14T01:47:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36465" started-at="2022-03-14T01:37:30Z" finished-at="2022-03-14T01:38:06Z">
+    <test name="Test" duration-ms="34734" started-at="2022-03-14T01:46:47Z" finished-at="2022-03-14T01:47:22Z">
       <class name="com.aircanada.testCases.SearchFlightTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="setUp" is-config="true" duration-ms="11560" started-at="2022-03-13T18:37:30Z" finished-at="2022-03-13T18:37:41Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="setUp" is-config="true" duration-ms="11097" started-at="2022-03-13T18:46:47Z" finished-at="2022-03-13T18:46:58Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="book_flight_roundTrip()[pri:1, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="book_flight_roundTrip" duration-ms="18197" started-at="2022-03-13T18:37:41Z" finished-at="2022-03-13T18:37:59Z">
+        <test-method status="PASS" signature="book_flight_roundTrip()[pri:1, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="book_flight_roundTrip" duration-ms="11277" started-at="2022-03-13T18:46:58Z" finished-at="2022-03-13T18:47:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- book_flight_roundTrip -->
-        <test-method status="PASS" signature="verify_Dept_date()[pri:2, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="verify_Dept_date" duration-ms="5180" started-at="2022-03-13T18:37:59Z" finished-at="2022-03-13T18:38:05Z">
+        <test-method status="PASS" signature="verify_Dept_date()[pri:2, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="verify_Dept_date" duration-ms="11092" started-at="2022-03-13T18:47:09Z" finished-at="2022-03-13T18:47:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Dept_date -->
-        <test-method status="PASS" signature="verify_displayed_tabs()[pri:3, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="verify_displayed_tabs" duration-ms="536" started-at="2022-03-13T18:38:05Z" finished-at="2022-03-13T18:38:05Z">
+        <test-method status="PASS" signature="verify_displayed_tabs()[pri:3, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="verify_displayed_tabs" duration-ms="343" started-at="2022-03-13T18:47:20Z" finished-at="2022-03-13T18:47:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_displayed_tabs -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="tearDown" is-config="true" duration-ms="961" started-at="2022-03-13T18:38:05Z" finished-at="2022-03-13T18:38:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aircanada.testCases.SearchFlightTest@78b1cc93]" name="tearDown" is-config="true" duration-ms="910" started-at="2022-03-13T18:47:21Z" finished-at="2022-03-13T18:47:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

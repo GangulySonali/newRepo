@@ -21,6 +21,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -42,8 +43,10 @@ public class BaseClass {
 	{
 		if(br.equalsIgnoreCase("chrome"))
 		{
+			ChromeOptions option =new ChromeOptions();
+			option.addArguments("start-maximized");
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		driver=new ChromeDriver(option);
 		}
 		else if(br.equalsIgnoreCase("firefox"))
 		{
@@ -63,7 +66,7 @@ public class BaseClass {
 		Thread.sleep(3000);
 		//driver.manage().window().maximize();
 		//System.out.println(driver.manage().window().getSize());
-		driver.manage().window().setSize(new Dimension(1552, 880));;
+	//	driver.manage().window().setSize(new Dimension(1552, 880));;
 		logger.info("URL opened--------------------");
 		if(driver.getTitle().equals("404"))
 		{
