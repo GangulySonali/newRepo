@@ -17,7 +17,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.aircanada.testBase.BaseClass;
+import com.aircanada.testCases.BaseClass;
 
 public class SelectSitePage extends BaseClass{
 

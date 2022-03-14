@@ -7,12 +7,12 @@ package com.aircanada.utility;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class ReadConfig {
+public class ReadConfigs {
 
 	Properties pro;
 	String path=System.getProperty("user.dir")+"//configurations//config.properties";
 	
-	public ReadConfig() 
+	public ReadConfigs() 
 	{
 		try {
 			FileInputStream file=new FileInputStream(path);

@@ -5,6 +5,7 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="com.aircanada.testCases.SearchFlightTest"/>
+       <class name="com.aircanada.testCases.BaseClass"/>
      
     </classes>
   </test> <!-- Test -->

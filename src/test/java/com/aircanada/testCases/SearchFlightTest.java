@@ -8,8 +8,6 @@ import org.testng.annotations.Test;
 import com.aircanada.pageObjects.SearchFlightPage;
 import com.aircanada.pageObjects.SelectFlightPage;
 import com.aircanada.pageObjects.SelectSitePage;
-import com.aircanada.testBase.BaseClass;
-
 import java.io.IOException;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
