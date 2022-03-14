@@ -16,6 +16,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +38,7 @@ public class BaseClass {
 
 	@Parameters("browser")
 	@BeforeClass
-	public void setUp(String br)
+	public void setUp(String br) throws InterruptedException
 	{
 		if(br.equalsIgnoreCase("chrome"))
 		{
@@ -59,7 +60,8 @@ public class BaseClass {
 
 		//Launching URL
 		driver.get(rc.getUrl());
-		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		driver.manage().window().setSize(new Dimension(1400,900));;
 		logger.info("URL opened--------------------");
 		if(driver.getTitle().equals("404"))
 		{
