@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-13T18:26:29 PDT" name="Suite" finished-at="2022-03-13T18:26:41 PDT" duration-ms="11499">
+  <suite started-at="2022-03-13T18:35:10 PDT" name="Suite" finished-at="2022-03-13T18:35:29 PDT" duration-ms="18726">
     <groups>
     </groups>
-    <test started-at="2022-03-13T18:26:29 PDT" name="Test" finished-at="2022-03-13T18:26:41 PDT" duration-ms="11499">
+    <test started-at="2022-03-13T18:35:10 PDT" name="Test" finished-at="2022-03-13T18:35:29 PDT" duration-ms="18726">
       <class name="com.aircanada.testCases.SearchFlightTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:26:29 PDT" name="setUp" finished-at="2022-03-13T18:26:37 PDT" duration-ms="7446" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:35:10 PDT" name="setUp" finished-at="2022-03-13T18:35:22 PDT" duration-ms="11759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,29 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="book_flight_roundTrip()[pri:1, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:26:37 PDT" name="book_flight_roundTrip" finished-at="2022-03-13T18:26:40 PDT" duration-ms="3391" status="FAIL">
+        <test-method signature="book_flight_roundTrip()[pri:1, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:35:22 PDT" name="book_flight_roundTrip" finished-at="2022-03-13T18:35:28 PDT" duration-ms="6295" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <div class="abc-dir-ltr abc-form-element-main abc-form-element-native-pseudo-select abc-form-element-select user-select-none ng-star-inserted option-selected" id="siteEditionDropdownSelectedOption" aria-hidden="true">...</div> is not clickable at point (802, 269). Other element would receive the click: <select autocorrect="off" spellcheck="false" autocomplete="off" class="abc-form-element-native-select ng-untouched ng-pristine ng-valid" id="siteEditionDropdown" aria-invalid="false" aria-required="false" aria-disabled="false" aria-readonly="false" aria-label="Select country - currency" aria-describedby="siteEditionDropdownSubscript">...</select>
+              <![CDATA[element click intercepted: Element is not clickable at point (365, 737)
   (Session info: chrome=99.0.4844.51)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'SONALI-DESKTOP', ip: '10.0.0.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [317f2cbdcd4f19ffcb0d42fd7eaa965c, clickElement {id=c1f49f7d-d95e-4d19-ae6c-21ac3c8537c0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:62703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62703/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (317f2cbdcd4f19ffcb0d42fd7eaa965c)] -> id: siteEditionDropdownSelectedOption]
-Session ID: 317f2cbdcd4f19ffcb0d42fd7eaa965c]]>
+Command: [12656c09ddc3115b2ef4843e6ea35ce9, clickElement {id=89bcff2f-ca92-4a36-8725-46bb202bc021}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, goog:chromeOptions: {debuggerAddress: localhost:62842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62842/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (12656c09ddc3115b2ef4843e6ea35ce9)] -> id: bkmgFlights_tripTypeSelector]
+Session ID: 12656c09ddc3115b2ef4843e6ea35ce9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="abc-dir-ltr abc-form-element-main abc-form-element-native-pseudo-select abc-form-element-select user-select-none ng-star-inserted option-selected" id="siteEditionDropdownSelectedOption" aria-hidden="true">...</div> is not clickable at point (802, 269). Other element would receive the click: <select autocorrect="off" spellcheck="false" autocomplete="off" class="abc-form-element-native-select ng-untouched ng-pristine ng-valid" id="siteEditionDropdown" aria-invalid="false" aria-required="false" aria-disabled="false" aria-readonly="false" aria-label="Select country - currency" aria-describedby="siteEditionDropdownSubscript">...</select>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (365, 737)
   (Session info: chrome=99.0.4844.51)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'SONALI-DESKTOP', ip: '10.0.0.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [317f2cbdcd4f19ffcb0d42fd7eaa965c, clickElement {id=c1f49f7d-d95e-4d19-ae6c-21ac3c8537c0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:62703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62703/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (317f2cbdcd4f19ffcb0d42fd7eaa965c)] -> id: siteEditionDropdownSelectedOption]
-Session ID: 317f2cbdcd4f19ffcb0d42fd7eaa965c
+Command: [12656c09ddc3115b2ef4843e6ea35ce9, clickElement {id=89bcff2f-ca92-4a36-8725-46bb202bc021}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, goog:chromeOptions: {debuggerAddress: localhost:62842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62842/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (12656c09ddc3115b2ef4843e6ea35ce9)] -> id: bkmgFlights_tripTypeSelector]
+Session ID: 12656c09ddc3115b2ef4843e6ea35ce9
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -54,8 +54,14 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at com.aircanada.pageObjects.SelectSitePage.select_siteEditor(SelectSitePage.java:65)
-at com.aircanada.testCases.SearchFlightTest.book_flight_roundTrip(SearchFlightTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy28.click(Unknown Source)
+at com.aircanada.pageObjects.SearchFlightPage.select_RoundTrip(SearchFlightPage.java:99)
+at com.aircanada.testCases.SearchFlightTest.book_flight_roundTrip(SearchFlightTest.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,7 +100,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- book_flight_roundTrip -->
-        <test-method signature="verify_Dept_date()[pri:2, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:26:40 PDT" name="verify_Dept_date" finished-at="2022-03-13T18:26:40 PDT" duration-ms="1" status="FAIL">
+        <test-method signature="verify_Dept_date()[pri:2, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:35:28 PDT" name="verify_Dept_date" finished-at="2022-03-13T18:35:28 PDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -137,7 +143,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Dept_date -->
-        <test-method signature="verify_displayed_tabs()[pri:3, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:26:40 PDT" name="verify_displayed_tabs" finished-at="2022-03-13T18:26:40 PDT" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:35:28 PDT" name="tearDown" finished-at="2022-03-13T18:35:29 PDT" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verify_displayed_tabs()[pri:3, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:35:28 PDT" name="verify_displayed_tabs" finished-at="2022-03-13T18:35:28 PDT" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -180,10 +190,6 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_displayed_tabs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:26:40 PDT" name="tearDown" finished-at="2022-03-13T18:26:41 PDT" duration-ms="629" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.aircanada.testCases.SearchFlightTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

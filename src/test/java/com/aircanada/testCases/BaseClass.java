@@ -61,7 +61,9 @@ public class BaseClass {
 		//Launching URL
 		driver.get(rc.getUrl());
 		Thread.sleep(3000);
-		driver.manage().window().setSize(new Dimension(1400,900));;
+		//driver.manage().window().maximize();
+		//System.out.println(driver.manage().window().getSize());
+		driver.manage().window().setSize(new Dimension(1552, 880));;
 		logger.info("URL opened--------------------");
 		if(driver.getTitle().equals("404"))
 		{
