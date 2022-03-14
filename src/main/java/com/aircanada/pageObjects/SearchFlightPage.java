@@ -11,6 +11,7 @@ package com.aircanada.pageObjects;
 import java.time.Duration;
 import java.util.List;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -96,6 +97,7 @@ public class SearchFlightPage extends BaseClass{
 
 	public void select_RoundTrip()
 	{
+		driver.manage().window().setSize(new Dimension(1552, 880));
 		selectTrip.click();
 		selRounTrip.click();
 	}
