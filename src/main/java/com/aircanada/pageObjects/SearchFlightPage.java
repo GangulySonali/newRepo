@@ -83,7 +83,7 @@ public class SearchFlightPage extends BaseClass{
 
 	public void select_FlightTab()
 	{
-		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(50));
 
 		try{
 			wait.until(ExpectedConditions.elementToBeClickable(By.id("bkmg-tab-button-flight"))).click();
