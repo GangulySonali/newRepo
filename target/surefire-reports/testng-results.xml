@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-13T17:53:56 PDT" name="Suite" finished-at="2022-03-13T17:54:26 PDT" duration-ms="29651">
+  <suite started-at="2022-03-13T18:00:24 PDT" name="Suite" finished-at="2022-03-13T18:00:34 PDT" duration-ms="9458">
     <groups>
     </groups>
-    <test started-at="2022-03-13T17:53:56 PDT" name="Test" finished-at="2022-03-13T17:54:26 PDT" duration-ms="29651">
+    <test started-at="2022-03-13T18:00:24 PDT" name="Test" finished-at="2022-03-13T18:00:34 PDT" duration-ms="9458">
       <class name="com.aircanada.testCases.SearchFlightTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.aircanada.testCases.SearchFlightTest@4ce7fffa]" started-at="2022-03-13T17:53:56 PDT" name="setUp" finished-at="2022-03-13T17:54:02 PDT" duration-ms="6296" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:00:24 PDT" name="setUp" finished-at="2022-03-13T18:00:30 PDT" duration-ms="6149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,169 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="book_flight_roundTrip()[pri:1, instance:com.aircanada.testCases.SearchFlightTest@4ce7fffa]" started-at="2022-03-13T17:54:02 PDT" name="book_flight_roundTrip" finished-at="2022-03-13T17:54:14 PDT" duration-ms="11724" status="PASS">
+        <test-method signature="book_flight_roundTrip()[pri:1, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:00:30 PDT" name="book_flight_roundTrip" finished-at="2022-03-13T18:00:33 PDT" duration-ms="2628" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="abc-dir-ltr abc-form-element-main abc-form-element-native-pseudo-select abc-form-element-select user-select-none ng-star-inserted option-selected" id="siteEditionDropdownSelectedOption" aria-hidden="true">...</div> is not clickable at point (802, 269). Other element would receive the click: <select autocorrect="off" spellcheck="false" autocomplete="off" class="abc-form-element-native-select ng-untouched ng-pristine ng-valid" id="siteEditionDropdown" aria-invalid="false" aria-required="false" aria-disabled="false" aria-readonly="false" aria-label="Select country - currency" aria-describedby="siteEditionDropdownSubscript">...</select>
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'SONALI-DESKTOP', ip: '10.0.0.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f97f3e5ecdd2cc489f702e6f4daa643e, clickElement {id=8deca00f-2f54-499f-a081-bedf4c72f35d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:61991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61991/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f97f3e5ecdd2cc489f702e6f4daa643e)] -> id: siteEditionDropdownSelectedOption]
+Session ID: f97f3e5ecdd2cc489f702e6f4daa643e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="abc-dir-ltr abc-form-element-main abc-form-element-native-pseudo-select abc-form-element-select user-select-none ng-star-inserted option-selected" id="siteEditionDropdownSelectedOption" aria-hidden="true">...</div> is not clickable at point (802, 269). Other element would receive the click: <select autocorrect="off" spellcheck="false" autocomplete="off" class="abc-form-element-native-select ng-untouched ng-pristine ng-valid" id="siteEditionDropdown" aria-invalid="false" aria-required="false" aria-disabled="false" aria-readonly="false" aria-label="Select country - currency" aria-describedby="siteEditionDropdownSubscript">...</select>
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'SONALI-DESKTOP', ip: '10.0.0.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f97f3e5ecdd2cc489f702e6f4daa643e, clickElement {id=8deca00f-2f54-499f-a081-bedf4c72f35d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:61991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61991/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f97f3e5ecdd2cc489f702e6f4daa643e)] -> id: siteEditionDropdownSelectedOption]
+Session ID: f97f3e5ecdd2cc489f702e6f4daa643e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.aircanada.pageObjects.SelectSitePage.select_siteEditor(SelectSitePage.java:65)
+at com.aircanada.testCases.SearchFlightTest.book_flight_roundTrip(SearchFlightTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- book_flight_roundTrip -->
-        <test-method signature="verify_Dept_date()[pri:2, instance:com.aircanada.testCases.SearchFlightTest@4ce7fffa]" started-at="2022-03-13T17:54:14 PDT" name="verify_Dept_date" finished-at="2022-03-13T17:54:24 PDT" duration-ms="10195" status="PASS">
+        <test-method signature="verify_Dept_date()[pri:2, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:00:33 PDT" name="verify_Dept_date" finished-at="2022-03-13T18:00:33 PDT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.aircanada.testCases.SearchFlightTest.verify_Dept_date(SearchFlightTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Dept_date -->
-        <test-method signature="verify_displayed_tabs()[pri:3, instance:com.aircanada.testCases.SearchFlightTest@4ce7fffa]" started-at="2022-03-13T17:54:24 PDT" name="verify_displayed_tabs" finished-at="2022-03-13T17:54:25 PDT" duration-ms="306" status="PASS">
+        <test-method signature="verify_displayed_tabs()[pri:3, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:00:33 PDT" name="verify_displayed_tabs" finished-at="2022-03-13T18:00:33 PDT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.aircanada.testCases.SearchFlightTest.verify_displayed_tabs(SearchFlightTest.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_displayed_tabs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.aircanada.testCases.SearchFlightTest@4ce7fffa]" started-at="2022-03-13T17:54:25 PDT" name="tearDown" finished-at="2022-03-13T17:54:26 PDT" duration-ms="1102" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.aircanada.testCases.SearchFlightTest@3da05287]" started-at="2022-03-13T18:00:33 PDT" name="tearDown" finished-at="2022-03-13T18:00:34 PDT" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

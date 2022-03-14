@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.504 s - in TestSuite
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 10.329 s <<< FAILURE! - in TestSuite
+com.aircanada.testCases.SearchFlightTest.book_flight_roundTrip  Time elapsed: 2.627 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="abc-dir-ltr abc-form-element-main abc-form-element-native-pseudo-select abc-form-element-select user-select-none ng-star-inserted option-selected" id="siteEditionDropdownSelectedOption" aria-hidden="true">...</div> is not clickable at point (802, 269). Other element would receive the click: <select autocorrect="off" spellcheck="false" autocomplete="off" class="abc-form-element-native-select ng-untouched ng-pristine ng-valid" id="siteEditionDropdown" aria-invalid="false" aria-required="false" aria-disabled="false" aria-readonly="false" aria-label="Select country - currency" aria-describedby="siteEditionDropdownSubscript">...</select>
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'SONALI-DESKTOP', ip: '10.0.0.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f97f3e5ecdd2cc489f702e6f4daa643e, clickElement {id=8deca00f-2f54-499f-a081-bedf4c72f35d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\WINDOWS\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:61991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61991/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f97f3e5ecdd2cc489f702e6f4daa643e)] -> id: siteEditionDropdownSelectedOption]
+Session ID: f97f3e5ecdd2cc489f702e6f4daa643e
+	at com.aircanada.testCases.SearchFlightTest.book_flight_roundTrip(SearchFlightTest.java:26)
+
+com.aircanada.testCases.SearchFlightTest.verify_Dept_date  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.aircanada.testCases.SearchFlightTest.verify_Dept_date(SearchFlightTest.java:55)
+
+com.aircanada.testCases.SearchFlightTest.verify_displayed_tabs  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.aircanada.testCases.SearchFlightTest.verify_displayed_tabs(SearchFlightTest.java:71)
+
