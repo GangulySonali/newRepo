@@ -23,7 +23,7 @@ public class SearchFlightTest extends BaseClass{
 
 	{
 		SelectSitePage sfPage=new SelectSitePage(driver);
-		sfPage.select_siteEditor(driver,10);
+		sfPage.select_siteEditor(driver,30);
 		sfPage.set_country();
 		sfPage.select_language();
 		sfPage.select_confirm();
